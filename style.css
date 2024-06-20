@@ -1,0 +1,517 @@
+button {
+    background-color: #000000;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem #000000;
+    cursor: progress ;
+    font-weight:900;
+   }
+   
+
+/* Variables */
+:root {
+    --primary-color: #000102; /* Dark Blue */
+    --secondary-color: #ecf0f1; /* Light Grey */
+    --accent-color: #4e5168; /* Red */
+    --background-color: #ecf0f1; /* Light Grey */
+    --text-color: #34495e; /* Dark Grey */
+}
+
+/* Home Section */
+#home h1 {
+    color: #fff; /* Change to the color you want */
+}
+
+#home p {
+    color: #ffffff; /* Change to the color you want */
+    font-weight: bold; /* Makes the font bold */
+    font-size: 24px; /* Increases the font size */
+}
+
+#home {
+    margin-bottom: 600px; /* Adjust the value to increase or decrease the space */
+}
+
+/* About Section */
+#about h2, 
+#about p, 
+#about ul {
+    color: #000000; /* Change to the color you want */
+}
+
+#about img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    object-fit: cover; /* Ensures the image covers the entire space */
+    border-radius: 8px; /* Optional: Adds a border-radius for rounded corners */
+}
+
+#about p {
+    font-weight: bold; /* Makes the font bold */
+    font-size: 18px; /* Increases the font size */
+}
+
+/* Basic Styles */
+body {
+    background-image: url("nighttime-nature-landscape-galaxy-mountain-water-star-beauty-generative-ai.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; /* This will make the image cover the entire background */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+nav a {
+    color: var(--secondary-color);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+}
+
+/* Main Styles */
+main {
+    padding-top: 5rem; /* Adjust to accommodate fixed header */
+}
+
+.section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: var(--secondary-color);
+    padding: 4rem 0;
+}
+
+#skills h2 {
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-list li {
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.skill-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-list i {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.skill-list p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: var(--background-color);
+    padding: 4rem 0;
+}
+
+#projects h2 {
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+#projects ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects li {
+    margin: 1rem 0;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+#projects li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projects a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#projects p {
+    margin-top: 0.5rem;
+    color: var(--text-color);
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: var(--primary-color);
+    padding: 4rem 0;
+    color: var(--secondary-color);
+}
+
+#contact h2 {
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-list li {
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.contact-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-list img {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.contact-list span {
+    display: block;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Show the menu icon */
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1000;
+        color: #000; /* Change the color as needed */
+    }
+    
+    .menu {
+        display: none;
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 1000;
+        padding: 1rem 0;
+    }
+    
+    .menu.active {
+        display: block;
+    }
+    
+    .menu ul {
+        text-align: center;
+    }
+    
+    .menu li {
+        margin-bottom: 1rem;
+    }
+    
+    .menu a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    }
+    
+    .menu-icon {
+        display: none;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1000;
+        color: #fff;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+    
+    .menu {
+        top: 60px;
+        padding-top: 1rem;
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu li {
+        margin-bottom: 0.5rem;
+    }
+}
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        top: 60px;
+        padding-top: 1rem;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Adjustments for Sections */
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    /* Adjustments for Skill List */
+    .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-list li {
+        width: 100%;
+        max-width: 300px;
+        margin: 1rem auto;
+    }
+
+    /* Adjustments for Project List */
+    #projects ul {
+        width: 100%;
+    }
+
+    #projects li {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    /* Adjustments for Contact List */
+    .contact-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-list li {
+        width: 100%;
+        max-width: 300px;
+        margin: 1rem auto;
+    }
+
+    /* Footer Adjustments */
+    footer {
+        padding: 1rem;
+    }
+}
+
+/* Additional Styles for Better Visuals */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button Styles */
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--accent-color);
+}

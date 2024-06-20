@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="menu-icon">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <button class="menu-icon" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home" title="Home">Home</a></li>
+                <li><a href="#about" title="About">About</a></li>
+                <li><a href="#skills" title="Skills">Skills</a></li>
+                <li><a href="#projects" title="Projects">Projects</a></li>
+                <li><a href="#contact" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section">
+            <h1 id="welcome" class="welcome">Welcome to My Portfolio</h1>
+            <p>ARTIFICIAL INTELLIGENCE AND DATA SCIENCE ENGINEER</p>
+            <a href="https://shorturl.at/wqmCc" target="_blank">
+            <button >
+                 RESUME
+            </button>
+            </a>
+            <a href="https://shorturl.at/1FiHd" target="_blank">
+            <button>
+                 CV
+            </button>
+            </a>
+        </section>
+        <section id="about" class="section center-content">
+            <h2>About Me</h2>
+            <img src="photo1674482411-removebg.png" alt="Profile Picture of Ritikesh">
+            <p>B.Tech in AI and Data Science with expertise in Python, R, C++, machine learning, and data analysis.</p>
+            <ul>
+                <li><i class="fas fa-graduation-cap"></i> Experienced in blockchain supply chains and CNN-based driver detection.</li>
+                <li><i class="fas fa-briefcase"></i> Certified by AWS, IBM, and HackerRank.</li>
+                <li><i class="fas fa-code"></i> Currently learning R, Django, and Flutter.</li>
+            </ul>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>
+                    <i class="fab fa-python"></i>
+                    <p>Python Programming</p>
+                </li>
+                <li>
+                    <i class="fab fa-r-project"></i>
+                    <p>R Programming</p>
+                </li>
+                <li>
+                    <i class="fas fa-code"></i>
+                    <p>C Programming</p>
+                </li>
+                <li>
+                    <i class="fab fa-cuttlefish"></i>
+                    <p>C++ Programming</p>
+                </li>
+                <li>
+                    <i class="fab fa-java"></i>
+                    <p>Java Programming</p>
+                </li>
+                <li>
+                    <i class="fas fa-robot"></i>
+                    <p>Machine Learning</p>
+                </li>
+                <li>
+                    <i class="fab fa-html5"></i>
+                    <p>Front-End Development</p>
+                </li>
+                <li>
+                    <i class="fab fa-figma"></i>
+                    <p>Figma tool</p>
+                </li>
+                <li>
+                    <i class="fas fa-chart-bar"></i>
+                    <p>Power BI tool</p>
+                </li>
+                <li>
+                    <i class="fas fa-chart-line"></i>
+                    <p>Tableau tool</p>
+                </li>
+                <li>
+                    <i class="fas fa-file-excel"></i>
+                    <p>MS Excel</p>
+                </li>
+                <li>
+                    <i class="fas fa-database"></i>
+                    <p>SQL</p>
+                </li>
+                <li>
+                    <i class="fab fa-numpy"></i>
+                    <p>Numpy</p>
+                </li>
+                <li>
+                    <i class="fab fa-pandas"></i>
+                    <p>Pandas</p>
+                </li>
+                <li>
+                    <i class="fas fa-chart-bar"></i>
+                    <p>Matplotlib</p>
+                </li>
+                <li>
+                    <i class="fas fa-code"></i>
+                    <p>Object-Oriented Programming</p>
+                </li>
+                <li>
+                    <i class="fas fa-code"></i>
+                    <p>Data Structure</p>
+                </li>
+            </ul>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <a href="project1.html" title="Project 1">Project 1</a>
+                    <p>Description of Project 1</p>
+                </li>
+                <li>
+                    <a href="project2.html" title="Project 2">Project 2</a>
+                    <p>Description of Project 2</p>
+                </li>
+                <li>
+                    <a href="project3.html" title="Project 3">Project 3</a>
+                    <p>Description of Project 3</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <ul class="contact-list">
+                <li>
+                    <a href="mailto:ritikeshmachhewar@gmail.com" title="Email" target="_blank">
+                        <img src="email-logo.png.png" alt="Email Logo">
+                        <span>Email</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/ritikesh-machhewar-36381b179/" title="LinkedIn" target="_blank">
+                        <img src="linkedin-logo.pn.png" alt="LinkedIn Logo">
+                        <span>LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ritikesh11052000" title="GitHub" target="_blank">
+                        <img src="github-logo.png.png" alt="GitHub Logo">
+                        <span>GitHub</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
